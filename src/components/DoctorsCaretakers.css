@@ -1,0 +1,116 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.selection-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#typeDropdown {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-button:hover {
+  background-color: #218838;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.recommendation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.recommendation span {
+  font-weight: bold;
+}
+span{
+  color: black;
+}
+.rating {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.availability {
+  margin-top: 10px;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.contact-button {
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .selection-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cards-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}

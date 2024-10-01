@@ -1,0 +1,38 @@
+.request-management-container {
+    padding: 20px;
+}
+
+.request-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.request-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+input{
+    height:30px
+}
+.accept-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.accept-btn:hover {
+    background-color: #45a049;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
